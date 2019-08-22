@@ -1,0 +1,106 @@
+Bootstrap:
+getbootstrap.com
+DOWNLOAD
+
+
+CDN: PARA OBTENER BOOTSTRAP EN NUESTRO PROYECTO
+npm: NODEJS,RUBY O PHP
+------------------------primera parte=INSTALAR CDN------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Curso Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+   <h1>bootstrap</h1>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------TIPOGRAFIA BOOTSTRAP--------------------------------------------------------------------
+DE POR SI LAS LETRAS YA CAMBIAN: ANIMACIONES Y ESTILO DINAMICO
+  <h1 class="display-1">Hola Bootstrap</h1>//tipografia para mi pagina web , queda muy bien
+<span class="text-muted">//para agregar texto de color tenue
+<p class="lead">
+<p class="font-weight-bold">Negrita</p>//RESALTA COMO NEGRITA
+<p class="text-capitalize">hello world</p>//COLOCA EN MAYUSCULAS LAS PRIMERAS LETRAS
+  <blockquote class="blockquote">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <footer class="blockquote">Alguien Famoso <cite title="origen de la cita">Origen de la cita</cite></footer>//PARA DISTINGUIR LA FRASE DEL ORIGEN
+    </blockquote>"
+
+--------------------------------------DOCUMENTATION -->COMPONENT-->SEARCH TYPOGRAPHY----------------------------------------------------------------------------
+
+
+----------------------------COMO ALINEAR LOS TEXTOS: search ALINE EN BOOTSTRAP------------------------------------------------------------------------------------------------------------------
+
+para que se adapten a los tamaños de pantalla
+
+<p class=text-sm-right>//Para alinear un texto en tamaño de pantalla pequeño, hacia la derecha.//HAY CONTINUO MOVIMIENTO EN EL TAMAÑO DE PANTALLA
+****************************     EN LINEA PERO EN BLOQUE
+ <div class="d-inline-block bg-success">
+            <h1>Hello world</h1>
+            <span>hello</span>
+      </div>
+
+      <div class="d-inline-block bg-success">
+            <h1>Hello world</h1>
+            <span>hello</span>
+      </div>
+
+*********************************
+    <h1 class="bg-success">Hello</h1>//LO PINTO
+--------------------------------TEXTO EN 2BLOQUES LOS PONGO UNO AL LADO DEL OTRO
+      <h1 class="bg-success d-inline">Hello</h1>
+      <h2 class="bg-success d-inline">World</h2>
+
+      <span class="bg-success">inline</span>//ELEMENTO EN LINEA
+      <span class="bg-success d-block">inline</span>///ELEMENTO EN BLOQUE
+
+-------------------------------------------------bg-successs: backgroundy el color successs(verde)
+
+
+
+
+
+---------------------------------------------------------FIJAR EL TEXTO Y QUE NOS ACOMPAÑE 
+      <h3 class="fixed-top">Navbar</h3>///FIXED-TOP SIEMPRE ARRIBA
+    <h3 class="fixed-bottom">PIE</h3>//
+
+
+
+
+
+
+
+---------------------------------	COLORES---------------------------------------------------------
+AZUL PARA COLOCAR INFORMACIONES
+AMARILLO PARA COLOCAR ADVERTENCIAS
+VERDE CUANDO UNA ACCION SE A REALIZADO SATISFACTORIAMENTE
+ROJO CUANDO NUESTRA APP ESTA EN ESTADO DE ALERTA O ALGO A SALIDO MAL
+
+
+
+
+
+
+
