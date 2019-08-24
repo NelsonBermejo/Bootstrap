@@ -1,0 +1,62 @@
+MARGENES
+font awesome iconos
+https://www.bootstrapcdn.com/fontawesome///para crear iconos//PEGO EL HTML
+<h1 class="bg-success mt-4">Hello world</h1>//BG-SUCCESS((BACKGROUND SUCCESS)FONDO VERDE) M(MARGIN)T(TOP)
+
+      <p>Hello <span class="mx-5">world</span> hello</p>//Modifica sobre el eje de las x es decir que hay un espacio de 5 tanto hacia la izquierda como hacia la derecha
+
+
+      <p>hello world</p>
+      <p class="my-5">Hello world</p>//Modifica sobre el eje de las y es decir que hay un espacio de 5 tanto hacia arriba como hacia abajo 
+      <p>hello world</p>
+
+      <h1 class="bg-success pt-5">hello world</h1>//distintos elementos con distintos padding- pading top 
+
+
+      <p class="bg-success p-5">hello world</p>//tengo un padding(relleno de 5 en la izquierda, la derecha, arriba y abajo
+
+
+      <div class="bg-success" style="border: 1px solid #000; height: 300px">//le coloco el alto predefinido de 300 para que los demas pueden calcular el resto del porcentaje, el 25,50,75 y 100%
+
+        <div class="bg-primary d-inline-block h-25">//CALCULA EL 25% EN LINEA RESPECTO DEL PRIMER DIV EN ALTO
+          elemento 1
+        </div>
+
+
+Breackpoints
+es una manera en la cual bootstrap a partir de un tamaño de pantalla, nosotro podemos cambiar los estilos de css y esto lo podemos hacer a travez de media jquery
+
+--------estilos a travez de media jquery
+        @media (min-width: 576px) {//Tamaño minimo de pantalla en bootstrap//CELULARES
+                @media (min-width: 768px)//TABLETS
+        @media (min-width: 992px) {//pantalla grande
+        @media (min-width: 1200px) {//pantalla extra grande
+
+
+---------------otro ejemplo con media jquery
+      <style media="screen">
+        @media (max-width: 1200px) {
+          body {
+            background: red;
+          }
+        }
+
+        @media (max-width: 992px) {
+          body {
+            background: blue;
+          }
+        }
+
+        @media (max-width: 768px) {
+          body {
+            background: green;
+          }
+        }
+
+        @media (max-width: 575px) {
+          body {
+            background: yellow;
+          }
+        }
+      </style>
+
